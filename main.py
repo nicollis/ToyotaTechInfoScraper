@@ -140,7 +140,7 @@ def process_section(driver, root_url, section_title):
 
 
 def create_filepath(title, section_title):
-    root_directory = "./data/Collision Repair"
+    root_directory = "./data"
     title = ''.join(title.split(';')[0])
     parts = title.split(":")
 
